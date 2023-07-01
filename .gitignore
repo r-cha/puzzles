@@ -2,7 +2,7 @@
 words
 
 # For python
-__pycache__
+__pycache__/
 *.py[cod]
 .venv/
 .mypy_cache/
