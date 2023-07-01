@@ -35,7 +35,7 @@ def find_shortest_path(G: nx.Graph, letters: set[str], depth=3) -> list[str]:
                 possibilities.append(path)
         if possibilities:
             bests.append(min(possibilities, key=len))
-    return sorted(bests, key=lambda path: len("".join(path)), reverse=True)
+    return sorted(bests, key=len, reverse=True)
 
 
 def main(sides, depth):
