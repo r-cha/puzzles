@@ -1,1 +1,8 @@
+# For this project
 words
+
+# For python
+__pycache__
+*.py[cod]
+.venv/
+.mypy_cache/
